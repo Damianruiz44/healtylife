@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url( https://www.bbva.com/wp-content/uploads/2023/03/deportes-sostenibles-bbva-sostenibilidad.jpg;)
+}
+header{ background-color:rgba(60, 207, 60, 0.916) ;
+    color: rgb(218, 246, 222);
+    width: 100%;
+    padding: 20px;
+    position: static;
+    z-index: 2;
+    text-align: center;
+}
+.container{    
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    justify-content: center;
+    right: 0;
+}
+header h1{
+
+    justify-content:left;
+    text-align:align;
+    
+    
+}
+header nav ul{
+    padding: 0;
+    list-style-type:armenian;
+    
+}
+header nav ul li{
+
+    display: inline-block;
+    margin-right: 20px;
+}
+header nav ul li a{
+    float: center;
+    color: white;
+    text-decoration: none;
+    
+}
+header nav ul li a:hover{
+    color: rgba(96, 96, 162, 0.934);
+    background-color: rgba(222, 196, 196, 0.741);
+
+
+}
+.imgin{
+    float: left;
+    width: 150px;
+    height: 130px;
+}
+main{
+    margin-right: 250px;
+}
+
+
+.section-container{
+    flex-direction:column;
+    display: flex;
+}
+.top-sections{
+ display: flex;
+ left: 0;
+}
+section{
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid;
+}
+aside{
+    background: rgba(70, 218, 24, 0.934);
+
+right: 0;
+width:15%;
+ height:260vh;
+  padding: 20px; 
+  position: fixed; 
+  top:0;
+
+
+}
+footer{
+ background-color: rgba(70, 218, 24, 0.934);
+ color: white;
+ padding: 20px;
+ text-align: center;
+ width: 100%;
+position: static;
+
+}
+h4{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+.finalimagen{
+    width: 100%;
+    height: 400px;
+    
+}
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+}
+.top-sections p{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
